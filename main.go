@@ -17,12 +17,14 @@ func main() {
 	for _, treeArray := range treeArray {
 		fmt.Print(fmt.Sprintf("%v ", treeArray.Val))
 	}
+
 }
 
 func createBinaryTreeFunction(binaryArray []int) []*TreeNode {
 	// left side 	2*i +1 left
 	// right side   right 2(i+1)
 	// parent floor ((i-1)/2)
+	//test
 
 	if len(binaryArray) == 0 || binaryArray == nil {
 		return nil
